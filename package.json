@@ -1,0 +1,36 @@
+{
+  "name": "@taboh/backend",
+  "version": "1.0.0",
+  "description": "Taboh is a social media that focuses on sharing song playlists",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./spin.ts",
+    "build": "tsc",
+    "start": "node ./dist/spin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njinlabs/taboh-backend.git"
+  },
+  "author": "njinlabs <labs@njintech.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njinlabs/taboh-backend/issues"
+  },
+  "homepage": "https://github.com/njinlabs/taboh-backend#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.1",
+    "pino-pretty": "^11.1.0",
+    "prisma": "^5.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.0-beta.3",
+    "pino": "^9.1.0"
+  }
+}
